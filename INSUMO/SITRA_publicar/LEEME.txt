@@ -1,0 +1,66 @@
+SITRA — prototipo · paquete para publicar
+=========================================
+
+Este directorio es todo lo que se necesita. Un solo archivo (index.html) con el
+motor y los datos dentro; robots.txt y _headers evitan que buscadores lo indexen,
+porque es un enlace de revisión y no una publicación institucional.
+
+  index.html   2.7 MB   el prototipo completo
+  robots.txt            no indexar
+  _headers              cabeceras noindex (Netlify las aplica sola)
+
+
+OPCIÓN A · Netlify Drop — la más rápida
+---------------------------------------
+1. Entrar a https://app.netlify.com/drop
+2. Arrastrar ESTA CARPETA COMPLETA (no el archivo suelto) a la zona de drop.
+3. Sale una URL terminada en .netlify.app en segundos.
+
+Advertencia: si se arrastra sin haber iniciado sesión, el sitio queda protegido
+con una contraseña temporal y hay que reclamarlo con una cuenta para que sea
+público. Conviene iniciar sesión ANTES de arrastrar. En los planes actuales
+basados en créditos el sitio puede quedar privado por defecto: revisar la
+configuración de visibilidad del proyecto después de publicar.
+
+Límites de Netlify Drop: carpeta bajo 50 MB, archivos individuales bajo 10 MB.
+Este paquete pesa unos 2,7 MB (unos 650 KB comprimidos, que es como viaja
+por la red), así que está muy por debajo de los límites.
+
+
+OPCIÓN B · GitHub Pages — la más estable para algo institucional
+----------------------------------------------------------------
+1. Crear un repositorio (por ejemplo conaf-uia/sitra-prototipo).
+2. Subir index.html a la raíz.
+3. Settings → Pages → Source: Deploy from a branch → main / (root).
+4. La URL queda como https://<organizacion>.github.io/sitra-prototipo/
+
+Ventaja: la URL es estable, el repositorio puede alojar después el código de
+SITRA, y encaja con el mandato de UIA de desarrollar soluciones transversales.
+
+
+OPCIÓN C · Que Claude lo publique en una sesión futura
+-------------------------------------------------------
+En el registro de conectores de claude.ai existen conectores de Netlify y de
+Vercel. Si UIA conecta uno (la autenticación la hace una persona, no Claude),
+en una próxima sesión el despliegue y las actualizaciones se pueden hacer
+directamente desde la conversación.
+
+
+ANTES DE COMPARTIR EL ENLACE
+----------------------------
+El archivo contiene 757 expedientes reales con el texto COMPLETO de solicitudes
+y respuestas. Va despersonalizado: no se copian los campos identificatorios del
+acuse, y sobre el cuerpo del texto se sustituyen correos, teléfonos, RUT en
+cualquier grafía (validados con el dígito verificador), el nombre del solicitante
+y los terceros mencionados. Una auditoría independiente da cero coincidencias.
+
+SE CONSERVA A PROPÓSITO el nombre de la autoridad que firma o resuelve cuando va
+acompañado de su cargo: saber quién resuelve qué es el objeto de la Ley 20.285.
+Esa distinción se hace por reglas y no es infalible. Conviene que Fiscalía la
+revise antes de que el enlace circule fuera de la institución.
+
+Queda público, además, el detalle caso a caso y los tiempos por gerencia. Casi
+todo eso ya es información pública —449 de los folios provienen del propio
+registro de Transparencia Activa de CONAF—, pero la vista consolidada por unidad
+es nueva. Conviene que Fiscalía lo revise antes de que el enlace circule fuera
+de la institución.
