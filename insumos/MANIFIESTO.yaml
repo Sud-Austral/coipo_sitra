@@ -1,0 +1,47 @@
+archivos:
+
+  - ruta: INSUMO/SITRA_publicar/index.html
+    sha256: "91047f74a9b2bdf70fa959ce2cced4c95af32e437d2ff9d904213d8ff3dcb481"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] contenido no extraido; patron y conteo no determinados en la evidencia"
+    puede_versionarse: "[VERIFICAR] depende de contiene_pii"
+    uso: "Unica pagina del entregable de publicacion; concentra practicamente todo el peso del repositorio. Que muestra es [PENDIENTE]."
+
+  - ruta: INSUMO/SITRA_publicar/LEEME.txt
+    sha256: "dcb7e9538c104dd3ea2d674a44025dcf4ec7e4058e264f2c4e129903a9b143cc"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] contenido no extraido; patron y conteo no determinados en la evidencia"
+    puede_versionarse: "[VERIFICAR] depende de contiene_pii"
+    uso: "Acompana a la pagina publicada. Su contenido no esta en la evidencia; para que se usa es [PENDIENTE]."
+
+  - ruta: INSUMO/SITRA_publicar/robots.txt
+    sha256: "d0ce57d6a2d6258745c2b83d404bd1e347aaf3dd551676695f3c4c910862a0c5"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] contenido no extraido; patron y conteo no determinados en la evidencia"
+    puede_versionarse: true
+    uso: "Archivo de la carpeta de publicacion. Para que se usa es [PENDIENTE]."
+
+  - ruta: INSUMO/SITRA_publicar/_headers
+    sha256: "34195c1f104766ac6677ac8428fe3ff2bf454765bd6c763c9fe8b8d72465202c"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] contenido no extraido; patron y conteo no determinados en la evidencia"
+    puede_versionarse: true
+    uso: "Archivo de la carpeta de publicacion. Para que se usa es [PENDIENTE]."
+
+  - ruta: README.md
+    sha256: "2f5031c5bced198ae9cfce94c59642fc84a76cb20cd3915256eb5e9745681d8a"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] sin patrones detectados; unica linea registrada es el nombre del repositorio"
+    puede_versionarse: true
+    uso: "Documentacion del repositorio. Hoy no describe el sistema."
+
+  - ruta: .gitattributes
+    sha256: "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] sin patrones detectados"
+    puede_versionarse: true
+    uso: "Configuracion del control de versiones."
+
+pendientes_de_declaracion:
+  - "[PENDIENTE] Origen de los cuatro archivos de INSUMO/SITRA_publicar/: quien los entrego, en que fecha y con que autorizacion para publicarlos."
+  - "[VERIFICAR] Si INSUMO/SITRA_publicar/index.html contiene datos de personas. El repositorio figura como publico en los metadatos de la evidencia y el contenido del archivo no fue extraido."
