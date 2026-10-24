@@ -71,3 +71,12 @@ repositorio en sus metadatos, que no dice nada sobre la evolucion del producto.
 Antes de cualquier otra cosa: que es lo que esta publicado en
 [INSUMO/SITRA_publicar/index.html] y a que area pertenece. Todo lo demas de
 este documento depende de esa respuesta.
+
+---
+
+## Actualización 2026-10-24 (revisión de documentación)
+
+VERIFICADO: la solución es un único HTML autocontenido (`INSUMO/SITRA_publicar/index.html`, ~2,7 MB, motor y datos incrustados),
+publicable en Netlify Drop o GitHub Pages según `INSUMO/SITRA_publicar/LEEME.txt`; `robots.txt` y `_headers` impiden la
+indexación. Sigue sin haber backend, base de datos ni endpoints. Pendiente: qué herramienta genera el HTML y cómo se
+actualizan sus datos (no lo comprobé).

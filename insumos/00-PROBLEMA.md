@@ -75,3 +75,12 @@ abierta tiene implicancias que ni el codigo ni este documento pueden resolver.
 El repositorio figura como publico en los metadatos de la evidencia, y el
 contenido de [INSUMO/SITRA_publicar/index.html] no fue extraido, asi que la
 pregunta queda abierta.
+
+---
+
+## Actualización 2026-10-24 (revisión de documentación)
+
+La afirmación de que no hay evidencia del propósito queda matizada. VERIFICADO en `INSUMO/SITRA_publicar/index.html`:
+título "SITRA · prototipo · CONAF" y descripción "Prototipo del Sistema de Tramitación y Respuesta Asistida para
+solicitudes Ley 20.285 de CONAF". VERIFICADO en `INSUMO/SITRA_publicar/LEEME.txt`: es un enlace de revisión (noindex) con
+757 expedientes despersonalizados. Problema de negocio, usuarios y criterios de éxito siguen pendientes de confirmar por el equipo.
